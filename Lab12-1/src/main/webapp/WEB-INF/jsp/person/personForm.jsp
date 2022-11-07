@@ -7,7 +7,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
-<title>사원정보</title>
+<title>학생정보</title>
 <script type="text/javascript" src="<c:url value="/validator.do"/>"></script>
 <validator:javascript formName="person" staticJavascript="false" xhtml="true" cdata="false"/>
 <script type="text/javascript">
@@ -21,7 +21,7 @@ function save(form){
 </script>
 </head>
 <body>
-<h1>사원정보</h1>
+<h1>학생정보</h1>
 <form:form commandName="person">
     <div><spring:message code="label.name" /> : 
     <form:input path="name"/><form:errors path="name" /></div><br>

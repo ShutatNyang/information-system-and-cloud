@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>사원정보</title>
+<title>학생정보</title>
 </head>
 <body>
 <div>NAME: ${pinfo.name}</div>
