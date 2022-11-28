@@ -20,7 +20,7 @@ public class ClientExampleController {
 	UIData uiData = new UIData();
 
 	public String serviceUrl() {
-	    return "20174275-sample1.223.130.168.242.traefik.me";
+	    return "https://20174275-sample1.223.130.168.242.traefik.me";
 	}
 	
     @RequestMapping(value="/emplist", method=RequestMethod.GET)
